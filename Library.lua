@@ -2094,7 +2094,7 @@ function Library:AddDraggableButtonv2(Text: string, Func, ExcludeScaling: boolea
     function Table:SetText(NewText: string)
         if IsIcon then
             Button.Image = NewText
-            Button.Size = UDim2.fromOffset(55, 55)  -- ★ Lebih besar
+            Button.Size = UDim2.fromOffset(50, 50)  -- ★ Lebih besar
             
             -- ★ TAMBAHKAN EFEK UNGU BERPUTAR OTOMATIS ★
             task.spawn(function()
